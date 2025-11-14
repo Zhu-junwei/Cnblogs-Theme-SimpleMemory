@@ -1,6 +1,20 @@
 # 更新历史
 
-# 2024.12.09 - v2.1.6
+## 2025.01.01 - v2.1.7
+* 更新APlayer CDN链接为staticfile源 [(#475)](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/pull/475)
+* 修复状态组件URL中的哈希部分避免路由干扰 [(#476)](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/pull/476)
+* 重构帖子元数据解析逻辑以提高可读性 [(#477)](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/pull/477)
+* 重构文章目录组件，添加对标题编号的支持 [(#478)](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/pull/478)
+* 优化标签页面代码结构，移除重复的postMeta函数 [(#479)](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/pull/479)
+* 博客园评论排序兼容及样式调整 [(#457)](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/pull/457)
+* 添加分类页和标签页的页面处理逻辑，包括标题设置、文章信息样式和摘要处理
+* 使用更现代的数组处理方法替代原有实现，优化代码可读性
+* 简化滚动事件处理逻辑，移除未使用的工具函数
+* 使用模板字符串重构postMetaHtml函数
+* 删除对h6级别标题的特殊处理，所有标题将统一生成目录ID
+* 修复标题打印缺失问题
+
+## 2024.12.09 - v2.1.6
 * 修复侧边栏VIP样式异常 [(#444)](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/pull/444)
 * font-family顺序调整 [(#449)](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/pull/449)
 * 兼容博客园favicon更新 [(#453)](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/pull/453)

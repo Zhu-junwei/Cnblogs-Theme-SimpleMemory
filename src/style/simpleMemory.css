@@ -13,6 +13,10 @@ iframe {
     background: #6fa3ef;
 }
 
+#sidebar_news_content {
+    display: none;
+}
+
 #blogTitle h1 a:hover,
 .dayTitle a,
 a,
@@ -972,6 +976,11 @@ div#tbCommentBodyPreview {
 #divRefreshComments {
     text-align: right;
     margin-bottom: 10px;
+}
+
+.comment-sort {
+  align-items: center !important;
+  margin-top: 20px;
 }
 
 .commenttb {

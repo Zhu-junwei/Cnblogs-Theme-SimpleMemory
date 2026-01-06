@@ -6,7 +6,7 @@
  * @describe: 文章页处理
  */
 import comArticle from "./common/comArticle";
-import imgBox from "../components/imgBox/imgBox";
+//import imgBox from "../components/imgBox/imgBox";
 
 export default function main(_) {
 

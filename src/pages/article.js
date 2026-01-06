@@ -6,7 +6,6 @@
  * @describe: 文章页处理
  */
 import comArticle from "./common/comArticle";
-//import imgBox from "../components/imgBox/imgBox";
 
 export default function main(_) {
 
@@ -27,10 +26,5 @@ export default function main(_) {
             main(_);
         });
     })();
-
-    /**
-     * 图片灯箱处理
-    (() => {
-        imgBox(_);
-    })();*/
+    
 }

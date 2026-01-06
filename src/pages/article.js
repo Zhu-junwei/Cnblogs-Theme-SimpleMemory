@@ -30,8 +30,7 @@ export default function main(_) {
 
     /**
      * 图片灯箱处理
-     */
     (() => {
         imgBox(_);
-    })();
+    })();*/
 }
